@@ -1,16 +1,17 @@
-import AboutMe from "../components/AboutMe"
-import Introduction from "../components/Introduction"
-import Resume from "../components/Resume"
+import AboutMe from "../components/AboutMe";
+import Introduction from "../components/Introduction";
+import Resume from "../components/Resume";
+import NavBar from "../components/NavBar";
 
 function Home() {
   return (
     <>
-    <Introduction />
-    <AboutMe />
-    <Resume />
+        <NavBar />
+        <Introduction />
+        <AboutMe />
+        <Resume />
     </>
-  )
-
+  );
 }
 
-export default Home
+export default Home;

@@ -6,7 +6,6 @@ import AboutMe from "./components/AboutMe";
 function App() {
   return (
     <>
-      <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-me" element={<AboutMe />} />
