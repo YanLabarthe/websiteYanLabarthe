@@ -1,6 +1,6 @@
 import AboutMe from "../components/AboutMe";
 import Introduction from "../components/Introduction";
-import Resume from "../components/Resume";
+import Timeline from "../components/Timeline";
 import NavBar from "../components/NavBar";
 
 function Home() {
@@ -9,7 +9,7 @@ function Home() {
         <NavBar />
         <Introduction />
         <AboutMe />
-        <Resume />
+        <Timeline />
     </>
   );
 }
